@@ -1,4 +1,4 @@
-# P6 - PHP Dasar dan Pemrograman Sisi Peladen
+ P6 - PHP Dasar dan Pemrograman Sisi Peladen
 
 ## Deskripsi
 Pengembangan lanjutan dari artefak P5 dengan menerapkan PHP sebagai bahasa sisi peladen (server-side). Fokus P6 adalah menjalankan PHP melalui Laragon, sintaks dasar PHP, variabel, konstanta, tipe data, operator, percabangan if-elseif-else, switch, ternary, perulangan for dan while, fungsi bawaan number_format() dan date(), serta sintaks keluaran singkat `<?= ... ?>`.
