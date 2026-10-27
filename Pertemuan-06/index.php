@@ -35,7 +35,8 @@ switch ($programStudi) {
     break; 
   default: 
     $fokusProgramStudi = "Belum ditentukan"; 
-} 
+
+}
 ?>
 <!DOCTYPE html>
 <html lang="id">
