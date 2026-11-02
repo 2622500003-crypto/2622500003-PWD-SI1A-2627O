@@ -114,8 +114,6 @@
         <img src="jam1.jpeg" alt="Jam Tangan 1">
         <img src="jam2.jpeg" alt="Jam Tangan 2">
         <img src="jam3.jpeg" alt="Jam Tangan 3">
-        <img src="jam4.jpeg" alt="Jam Tangan 4">
-        <img src="jam5.jpeg" alt="Jam Tangan 5">
     </div>
 </section>
 
