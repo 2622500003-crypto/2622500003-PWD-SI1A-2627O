@@ -5,83 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Watch Aqila</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="produk.php">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #fff0f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #d87093;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav li {
-            display: inline-block;
-            margin: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 25px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 10px;
-        }
-
-        .produk {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .produk img {
-            width: 200px;
-            height: 220px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
-        input, textarea {
-            width: 90%;
-            max-width: 400px;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        button {
-            background-color: #d87093;
-            color: white;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        footer {
-            background-color: #d87093;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-    </style>
 </head>
 
 <body>
@@ -91,8 +17,9 @@
     <p>Toko Jam Tangan Perempuan</p>
 
     <nav>
-        <ul>
+     <ul>
             <li><a href="#home">Home</a></li>
+            <li><a href="#produk">Produk</a></li>
             <li><a href="#about">Profil</a></li>
             <li><a href="#contact">Buku Tamu</a></li>
         </ul>
@@ -108,6 +35,7 @@
         dengan berbagai model yang cantik dan elegan.
     </p>
 
+        <section id="produk">
     <h3>Produk Kami</h3>
 
     <div class="produk">
@@ -119,7 +47,7 @@
 
 <section id="about">
     <h2>Profil Saya</h2>
-
+    <img src="foto.jpg" alt="Profil Saqila Bahari R." style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
     <p>Nama: Saqila Bahari R.</p>
     <p>Pekerjaan: Penjual Jam Tangan Perempuan</p>
 
@@ -178,6 +106,6 @@
     <p>Saqila_Bahari_R_2622500003</p>
     <p>© 2026 Watch Aqila</p>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
