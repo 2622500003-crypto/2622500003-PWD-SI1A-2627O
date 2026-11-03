@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
 <header>
     <h1>WATCH AQILA</h1>
     <p>Toko Jam Tangan Perempuan</p>
@@ -50,7 +49,7 @@
 
 <section id="about">
     <h2>Profil Saya</h2>
-    <img src="foto.jpg" alt="Profil Saqila Bahari R." style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+    <img src="foto.jpg" alt="Profil Saqila Bahari R." style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; position: center;">
     <p>Nama: Saqila Bahari R.</p>
     <p>Pekerjaan: Penjual Jam Tangan Perempuan</p>
 

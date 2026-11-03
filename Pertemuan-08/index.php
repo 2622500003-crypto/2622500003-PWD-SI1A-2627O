@@ -1,9 +1,41 @@
 <?php
-// php punya saqila
-
 if(isset($_GET['nama'])){
   $n = $_GET['nama'];
   echo "<script>alert('Terima kasih $n sudah pesan jam di Watch Aqila');</script>";
+  if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $nama = htmlspecialchars(
+        $_POST["nama"] ?? "",
+        ENT_QUOTES,
+        "UTF-8"
+    );
+
+    $email = htmlspecialchars(
+        $_POST["email"] ?? "",       
+        ENT_QUOTES,
+        "UTF-8"
+    );
+
+    $telepon = htmlspecialchars(
+        $_POST["telepon"] ?? "",
+        ENT_QUOTES,
+        "UTF-8"
+    );
+
+    $product = htmlspecialchars(
+        $_POST["product"] ?? "",
+        ENT_QUOTES,
+        "UTF-8"
+    );
+
+    $pesan = htmlspecialchars(
+        $_POST["pesan"] ?? "",
+        ENT_QUOTES,
+        "UTF-8"
+    );
+
+    $pesanKonfirmasi = "Terima kasih, " . $nama .
+                       "! Pendaftaran kamu berhasil.";
+}
 }
 ?>
 <!DOCTYPE html>
@@ -34,6 +66,7 @@ if(isset($_GET['nama'])){
       <button type="submit">Kirim</button>
     </form>
   </div>
+  <img src="foto.jpg" >
 </div>
 <footer>
   Saqila_Bahari_R_2622500003
