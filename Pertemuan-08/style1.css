@@ -1,0 +1,68 @@
+/* css punya saqila - tugas pertemuan 8 */
+
+body{
+margin:0;
+padding:0;
+font-family: Times New Roman;
+}
+
+.header{
+background-color:#c7a0d3;
+padding:15px;
+font-size:22px;
+font-weight:bold;
+border-bottom:2px solid black;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:150px;
+background-color:#ead3f0;
+padding:15px;
+border-right:2px solid black;
+}
+
+.sidebar a{
+display:block;
+margin-bottom:30px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+
+.content{
+flex:1;
+padding:20px;
+background-color:#fdf2f5;
+/* background watercolor, kalau ada file bg.jpg taro di folder yang sama */
+background-image:url('bg.jpg');
+}
+
+.content h2{
+text-align:center;
+}
+
+.content input, textarea{
+width:300px;
+background:#e6f7f8;
+border:1px solid black;
+padding:5px;
+margin-top:5px;
+}
+
+button{
+background:#e6f7f8;
+border:1px solid black;
+padding:5px 30px;
+cursor:pointer;
+}
+
+.footer{
+background:#c7a0d3;
+padding:10px;
+border-top:2px solid black;
+font-weight:bold;
+}

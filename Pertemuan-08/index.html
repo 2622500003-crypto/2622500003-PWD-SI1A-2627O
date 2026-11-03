@@ -1,66 +1,136 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>watch aqila</title>
+<meta charset="UTF-8">
+<title>Watch Aqila</title>
+<style>
+body{
+margin:0;
+padding:0;
+font-family: "Times New Roman", serif;
+background-color: pink !important;
+}
+
+.header{
+background-color:#c7a0d3;
+padding:15px;
+font-size:22px;
+font-weight:bold;
+border-bottom:2px solid black;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:150px;
+background-color:#ead3f0;
+padding:15px;
+border-right:2px solid black;
+}
+
+.sidebar a{
+display:block;
+margin-bottom:30px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+
+.content{
+flex:1;
+padding:20px;
+background-color:#fdf2f5;
+}
+
+.content h2{
+text-align:center;
+}
+
+.content input, textarea{
+width:300px;
+background:#e6f7f8;
+border:1px solid black;
+padding:5px;
+margin-top:5px;
+}
+
+button{
+background:#e6f7f8;
+border:1px solid black;
+padding:5px 30px;
+cursor:pointer;
+}
+
+.footer{
+background:#c7a0d3;
+padding:10px;
+border-top:2px solid black;
+font-weight:bold;
+}
+</style>
 </head>
 <body>
-    <header>
-        <h1>Ini header</h1>
-        <nav>
-            <ul>
-                
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">profil</a></li>
-                <li><a href="#contact">buku tamu</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home"> 
-      <h2>Selamat Datang</h2> 
-      <p>Halo, saya Saqila Bahari R. Saya menjual aneka jam tanggan perempuan
-         namanya Watch Aqila. Toko ini berada di Pangkalpinang.
-         Menjual berbagai macam jam tangan wanita, ada yang casual, formal, sporty, dan mewah. 
-         Merknya ada Casio, Fossil, Alexandre Christie, G-Shock dll. Semua jam dijamin original dan bergaransi toko. Harganya terjangkau..</p> 
-        <img src="jam1.jpeg" alt="Jam Tangan Perempuan" width="200">
-        <img src="jam2.jpeg" alt="Jam Tangan Perempuan" width="200">
-        <img src="jam3.jpeg" alt="Jam Tangan Perempuan" width="200">
-        </section>
-    <section id="about">
-        <h2>Profil Saya</h2>
-        <p>Nama: Saqila Bahari R.</p>
-        <p>Pekerjaan: Penjual Jam Tangan Perempuan</p>
-        <p>Toko ini berfokus menjual aneka jam tangan perempuan dengan berbagai desain dan harga yang terjangkau.</p>
-        <article>
-            <h3>buku tamu</h3>
-            <p>Silahkan tinggalkan pesan untuk pemesanan jam tanggan perempuan di watch Aqila.</p>
-            <p>Nama : Saqila Bahari R</p>
-            <p>Jenis Kelamin : Perempuan</p>
-            <p>Alamat : Jl. Bukit Merapin</p>
-            <p>Program Studi : Sistem Informasi</p>
-            <p>Mata Kuliah : Pemrograman Web</p>
-            <from id="contacfrom" action="index.html" method="get" novalidate>
-                <label for="nama">Nama:</label><br>
-                <input type="text" id="nama" name="nama" placeholder=
-                "Masukkan nama Anda"><br><br>
 
-                <label for="email">Email (wajib Diisi):</label><br>
-                <input type="email" id="email" name="email"
-                 placeholder="Masukkan email Anda"><br><br>
+<div class="header">
+Web Toko Watch Aqila
+</div>
 
-                <label for="nohp"></label>No HP (wajib Diisi):</label><br>
-                <input type="text" id="nohp" name="nohp" placeholder="Masukkan No HP Anda"><br><br>
+<div class="container">
+  <div class="sidebar">
+    <a href="#home">Home</a>
+    <a href="#about">Profil</a>
+    <a href="#contact">Buku Tamu</a>
+  </div>
 
-                <label for="pesan">pesan (Wajib Diisi)*</label><br>
-                <textarea id="pesan" name="pesan" placeholder="Masukkan pesan Anda"></textarea><br><br>
-                <b>Pesan(wajib diisi)*</b><br><br>
-                <button type="submit">Kirim</button>
-            </from>
-            </div>
-            </div>
-            </div>
-             <div class="footer">Saqila_Bahari_R_2622500003</div>
+  <div class="content">
+    <div id="home">
+      <h2>Macam Macam Jam Tangan Watch Aqila</h2>
+      <center>
+        <img src="jam1.jpeg" width="150" >
+        <img src="jam2.jpeg" width="150" >
+        <img src="jam3.jpeg" width="150" >
+      </center>
+      <br>
+      <p>Halo, saya Saqila Bahari R. Saya menjual aneka jam tangan perempuan namanya Watch Aqila. Toko ini berada di Pangkalpinang. Menjual berbagai macam jam tangan wanita, ada yang casual, formal, sporty, dan mewah. Merknya ada Casio, Fossil, Alexandre Christie, G-Shock dll. Semua jam dijamin original dan bergaransi toko. Harganya terjangkau.</p>
+    </div>
+
+    <br><br>
+    <div id="about">
+      <h2>Biodata Diri</h2>
+      <p>Nama : Saqila Bahari R</p>
+      <p>Tempat Tgl Lahir : Pangkalpinang, 20-Oktober-2003</p>
+      <p>Agama : Islam</p>
+      <p>Alamat : Jl Mayong, Komp Guru Pancur</p>
+      <p>NIM : 2622500003</p>
+      <p>Prodi : Sistem Informasi</p>
+      <p>Usaha : Penjual Jam Tangan Perempuan</p>
+    </div>
+
+    <br><br>
+    <div id="contact">
+      <h2>Buku Tamu</h2>
+      Nama Lengkap(Wajib Diisi)*<br>
+      <form id="contactForm" action="index.php" method="GET">
+        <input type="text" id="nama" name="nama" placeholder="Masukan Nama Anda"><br><br>
+        Email(Wajib Diisi)*<br>
+        <input type="text" id="email" name="email" placeholder="Masukan Email Anda"><br><br>
+        No Hp(Wajib Diisi)*<br>
+        <input type="text" id="nohp" name="nohp" placeholder="Masukan No HP Anda"><br><br>
+        Pesan(Wajib Diisi)*<br>
+        <textarea id="pesan" name="pesan" placeholder="Masukan Pesan Anda"></textarea><br><br>
+        *Harus Wajib Diisi<br><br>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+<footer class="footer">
+  Saqila_Bahari_R_2622500003
+</footer>
+
 <script src="script.js"></script>
 </body>
 </html>
